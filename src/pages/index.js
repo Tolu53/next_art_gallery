@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import pic1 from '../assets/img5.jpg'
 import {AiFillGoogleCircle ,AiFillTwitterCircle,AiFillFacebook} from 'react-icons/ai'
+import Link from 'next/link'
 // import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 // import { collection, addDoc,doc ,setDoc ,getFirestore} from "firebase/firestore"; 
 // import { useNavigate } from 'react-router-dom';
@@ -48,7 +49,7 @@ export default function Home() {
                                 Forgot Password?
                             </div>
                     </div>
-                   <button className='bg-red-300 w-full py-1 hover:scale-105 active:scale-95 duration-500'>Sign in</button>
+                   <Link href="home" className='bg-red-300 w-full py-1 hover:scale-105 active:scale-95 duration-500'>Sign in</Link>
                    <p>Or Sign in with </p>
                    <div className='flex py-4 w-full'>
                     
