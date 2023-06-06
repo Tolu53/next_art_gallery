@@ -39,7 +39,7 @@ export default function Heroimgs(){
     }]
     return(
         <div>
-        <div className='duration-1000'>
+        <div className='duration-1000 '>
             
             <div className='flex items-center justify-center duration-1000 z-50'>
                 
